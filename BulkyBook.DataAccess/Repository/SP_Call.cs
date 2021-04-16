@@ -63,7 +63,7 @@ namespace BulkyBook.DataAccess.Repository
                 return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
                 
 
-               // sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                //sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
 
             }
         }
