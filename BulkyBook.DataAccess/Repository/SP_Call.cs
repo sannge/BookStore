@@ -20,7 +20,14 @@ namespace BulkyBook.DataAccess.Repository
         public SP_Call(ApplicationDbContext db)
         {
             _db = db;
-            ConnectionString = db.Database.GetDbConnection().ConnectionString;
+           try
+            {
+                ConnectionString = db.Database.GetDbConnection().ConnectionString;
+            }
+            catch(Exception err)
+            {
+                Console.WriteLine(err);
+            }
         }
         public void Dispose()
         {
@@ -70,12 +77,22 @@ namespace BulkyBook.DataAccess.Repository
 
         public T OneRecord<T>(string procedureName, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                var value = sqlCon.Query<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                return (T)Convert.ChangeType(value.FirstOrDefault(), typeof(T));
+            }
         }
 
         public T Single<T>(string procedureName, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure),typeof(T));
+                
+            }
         }
     }
 }

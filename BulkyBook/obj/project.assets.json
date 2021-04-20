@@ -7675,25 +7675,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TX900960\\.nuget\\packages\\": {},
+    "C:\\Users\\samng\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook\\BulkyBook.csproj",
+      "projectUniqueName": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook\\BulkyBook.csproj",
       "projectName": "BulkyBook",
-      "projectPath": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook\\BulkyBook.csproj",
-      "packagesPath": "C:\\Users\\TX900960\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook\\obj\\",
+      "projectPath": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook\\BulkyBook.csproj",
+      "packagesPath": "C:\\Users\\samng\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\TX900960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -7709,14 +7709,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+            "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
             },
-            "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.Models\\BulkyBook.Models.csproj"
             },
-            "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
-              "projectPath": "C:\\Users\\TX900960\\Documents\\PracticeProjects\\BookStore\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
+            "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+              "projectPath": "C:\\Users\\samng\\source\\repos\\BookStore\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
             }
           }
         }
